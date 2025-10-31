@@ -39,7 +39,7 @@ async def start_command(client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⚜️ Aᴅᴅ ᴍᴇ Bᴀʙʏ ⚜️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
+                        "⚜️ Aᴅᴅ ᴍᴇ Bᴀʙʏ ⚜️", url=f"https://t.me/toxicxban_bot?startgroup=true"
                     )
                 ],
                 [
@@ -69,5 +69,6 @@ async def banall_command(client, message: Message):
 app.start()
 print("Banall-Bot Booted Successfully")
 idle()
+
 
 
